@@ -1,7 +1,7 @@
 package elasticacheiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/elasticache"
+	"github.com/datacratic/aws-sdk-go/service/elasticache"
 )
 
 type ElastiCacheAPI interface {

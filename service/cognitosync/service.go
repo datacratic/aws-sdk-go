@@ -1,9 +1,9 @@
 package cognitosync
 
 import (
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/restjson"
-	"github.com/awslabs/aws-sdk-go/internal/signer/v4"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/restjson"
+	"github.com/datacratic/aws-sdk-go/internal/signer/v4"
 )
 
 // CognitoSync is a client for Amazon Cognito Sync.

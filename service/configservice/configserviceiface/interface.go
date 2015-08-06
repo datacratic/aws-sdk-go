@@ -1,7 +1,7 @@
 package configserviceiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/configservice"
+	"github.com/datacratic/aws-sdk-go/service/configservice"
 )
 
 type ConfigServiceAPI interface {

@@ -1,15 +1,15 @@
 package restxml_test
 
 import (
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/restxml"
-	"github.com/awslabs/aws-sdk-go/internal/signer/v4"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/restxml"
+	"github.com/datacratic/aws-sdk-go/internal/signer/v4"
 
 	"bytes"
 	"encoding/json"
 	"encoding/xml"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/xml/xmlutil"
-	"github.com/awslabs/aws-sdk-go/internal/util"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/datacratic/aws-sdk-go/internal/util"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"io/ioutil"

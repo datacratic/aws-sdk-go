@@ -1,7 +1,7 @@
 package dynamodbiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/dynamodb"
+	"github.com/datacratic/aws-sdk-go/service/dynamodb"
 )
 
 type DynamoDBAPI interface {

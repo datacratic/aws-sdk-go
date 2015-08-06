@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 )
 
 func Unmarshal(r *aws.Request) {

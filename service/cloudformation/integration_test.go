@@ -5,9 +5,9 @@ package cloudformation_test
 import (
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/util/utilassert"
-	"github.com/awslabs/aws-sdk-go/service/cloudformation"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/util/utilassert"
+	"github.com/datacratic/aws-sdk-go/service/cloudformation"
 	"github.com/stretchr/testify/assert"
 )
 

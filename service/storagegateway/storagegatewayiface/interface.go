@@ -1,7 +1,7 @@
 package storagegatewayiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/storagegateway"
+	"github.com/datacratic/aws-sdk-go/service/storagegateway"
 )
 
 type StorageGatewayAPI interface {

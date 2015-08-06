@@ -1,7 +1,7 @@
 package swfiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/swf"
+	"github.com/datacratic/aws-sdk-go/service/swf"
 )
 
 type SWFAPI interface {

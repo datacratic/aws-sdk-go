@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/aws/awsutil"
-	"github.com/awslabs/aws-sdk-go/service/autoscaling"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws/awsutil"
+	"github.com/datacratic/aws-sdk-go/service/autoscaling"
 )
 
 var _ time.Duration

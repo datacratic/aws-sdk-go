@@ -1,7 +1,7 @@
 package cognitosynciface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cognitosync"
+	"github.com/datacratic/aws-sdk-go/service/cognitosync"
 )
 
 type CognitoSyncAPI interface {

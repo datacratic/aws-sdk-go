@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/service/dynamodb"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/service/dynamodb"
 	"github.com/stretchr/testify/assert"
 )
 

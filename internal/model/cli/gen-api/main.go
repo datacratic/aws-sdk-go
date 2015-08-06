@@ -15,7 +15,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/awslabs/aws-sdk-go/internal/model/api"
+	"github.com/datacratic/aws-sdk-go/internal/model/api"
 )
 
 type generateInfo struct {

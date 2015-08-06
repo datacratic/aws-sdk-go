@@ -1,7 +1,7 @@
 package ssmiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/ssm"
+	"github.com/datacratic/aws-sdk-go/service/ssm"
 )
 
 type SSMAPI interface {

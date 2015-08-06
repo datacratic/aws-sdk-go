@@ -1,7 +1,7 @@
 package route53iface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/route53"
+	"github.com/datacratic/aws-sdk-go/service/route53"
 )
 
 type Route53API interface {

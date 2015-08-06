@@ -1,7 +1,7 @@
 package elasticbeanstalkiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/elasticbeanstalk"
+	"github.com/datacratic/aws-sdk-go/service/elasticbeanstalk"
 )
 
 type ElasticBeanstalkAPI interface {

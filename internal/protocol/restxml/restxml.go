@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/query"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/rest"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/query"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/rest"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/xml/xmlutil"
 )
 
 func Build(r *aws.Request) {

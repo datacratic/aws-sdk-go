@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/awslabs/aws-sdk-go/service/glacier"
+	"github.com/datacratic/aws-sdk-go/service/glacier"
 )
 
 func ExampleComputeHashes() {

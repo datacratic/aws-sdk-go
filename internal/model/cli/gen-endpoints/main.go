@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/awslabs/aws-sdk-go/internal/model"
+	"github.com/datacratic/aws-sdk-go/internal/model"
 )
 
 func main() {

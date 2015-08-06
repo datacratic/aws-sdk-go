@@ -1,7 +1,7 @@
 package cloudhsmiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cloudhsm"
+	"github.com/datacratic/aws-sdk-go/service/cloudhsm"
 )
 
 type CloudHSMAPI interface {

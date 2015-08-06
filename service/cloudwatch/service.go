@@ -1,9 +1,9 @@
 package cloudwatch
 
 import (
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/query"
-	"github.com/awslabs/aws-sdk-go/internal/signer/v4"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/query"
+	"github.com/datacratic/aws-sdk-go/internal/signer/v4"
 )
 
 // CloudWatch is a client for CloudWatch.

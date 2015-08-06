@@ -1,7 +1,7 @@
 package ecsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/ecs"
+	"github.com/datacratic/aws-sdk-go/service/ecs"
 )
 
 type ECSAPI interface {

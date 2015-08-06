@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/awslabs/aws-sdk-go/internal/util"
+	"github.com/datacratic/aws-sdk-go/internal/util"
 )
 
 type ShapeRef struct {

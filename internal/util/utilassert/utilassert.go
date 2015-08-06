@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/internal/model/api"
-	"github.com/awslabs/aws-sdk-go/internal/util/utilsort"
+	"github.com/datacratic/aws-sdk-go/internal/model/api"
+	"github.com/datacratic/aws-sdk-go/internal/util/utilsort"
 )
 
 func findMember(shape *api.Shape, key string) string {

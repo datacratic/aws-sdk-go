@@ -1,7 +1,7 @@
 package cognitoidentityiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cognitoidentity"
+	"github.com/datacratic/aws-sdk-go/service/cognitoidentity"
 )
 
 type CognitoIdentityAPI interface {

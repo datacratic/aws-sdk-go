@@ -1,7 +1,7 @@
 package cloudwatchlogsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cloudwatchlogs"
+	"github.com/datacratic/aws-sdk-go/service/cloudwatchlogs"
 )
 
 type CloudWatchLogsAPI interface {

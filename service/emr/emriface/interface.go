@@ -1,7 +1,7 @@
 package emriface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/emr"
+	"github.com/datacratic/aws-sdk-go/service/emr"
 )
 
 type EMRAPI interface {

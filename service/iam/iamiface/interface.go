@@ -1,7 +1,7 @@
 package iamiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/iam"
+	"github.com/datacratic/aws-sdk-go/service/iam"
 )
 
 type IAMAPI interface {

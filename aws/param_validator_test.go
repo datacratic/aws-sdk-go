@@ -3,7 +3,7 @@ package aws_test
 import (
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 	"github.com/stretchr/testify/assert"
 )
 

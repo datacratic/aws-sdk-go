@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"io"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 )
 
 type xmlErrorResponse struct {

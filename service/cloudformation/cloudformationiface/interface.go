@@ -1,7 +1,7 @@
 package cloudformationiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cloudformation"
+	"github.com/datacratic/aws-sdk-go/service/cloudformation"
 )
 
 type CloudFormationAPI interface {

@@ -1,7 +1,7 @@
 package lambdaiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/lambda"
+	"github.com/datacratic/aws-sdk-go/service/lambda"
 )
 
 type LambdaAPI interface {

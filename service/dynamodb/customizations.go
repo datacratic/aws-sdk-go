@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 )
 
 func init() {

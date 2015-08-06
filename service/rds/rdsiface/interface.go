@@ -1,7 +1,7 @@
 package rdsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/rds"
+	"github.com/datacratic/aws-sdk-go/service/rds"
 )
 
 type RDSAPI interface {

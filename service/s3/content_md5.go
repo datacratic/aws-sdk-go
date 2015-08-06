@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 )
 
 // contentMD5 computes and sets the HTTP Content-MD5 header for requests that

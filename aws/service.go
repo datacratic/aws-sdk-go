@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/awslabs/aws-sdk-go/internal/endpoints"
+	"github.com/datacratic/aws-sdk-go/internal/endpoints"
 )
 
 type Service struct {

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/awslabs/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/xml/xmlutil"
 )
 
 func GoFmt(buf string) string {

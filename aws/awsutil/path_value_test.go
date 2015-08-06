@@ -3,7 +3,7 @@ package awsutil_test
 import (
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws/awsutil"
+	"github.com/datacratic/aws-sdk-go/aws/awsutil"
 	"github.com/stretchr/testify/assert"
 )
 

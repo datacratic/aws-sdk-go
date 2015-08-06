@@ -1,7 +1,7 @@
 package kinesisiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/kinesis"
+	"github.com/datacratic/aws-sdk-go/service/kinesis"
 )
 
 type KinesisAPI interface {

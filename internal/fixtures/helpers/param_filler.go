@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/awslabs/aws-sdk-go/internal/model/api"
-	"github.com/awslabs/aws-sdk-go/internal/util"
-	"github.com/awslabs/aws-sdk-go/internal/util/utilsort"
+	"github.com/datacratic/aws-sdk-go/internal/model/api"
+	"github.com/datacratic/aws-sdk-go/internal/util"
+	"github.com/datacratic/aws-sdk-go/internal/util/utilsort"
 )
 
 type paramFiller struct {

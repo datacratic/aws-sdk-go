@@ -4,8 +4,8 @@ import (
 	"crypto/md5"
 	"encoding/base64"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/aws/awsutil"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws/awsutil"
 )
 
 var errSSERequiresSSL = aws.APIError{

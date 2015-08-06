@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/aws/awsutil"
-	"github.com/awslabs/aws-sdk-go/service/glacier"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws/awsutil"
+	"github.com/datacratic/aws-sdk-go/service/glacier"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,9 +5,9 @@ package lambda_test
 import (
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/util/utilassert"
-	"github.com/awslabs/aws-sdk-go/service/lambda"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/util/utilassert"
+	"github.com/datacratic/aws-sdk-go/service/lambda"
 	"github.com/stretchr/testify/assert"
 )
 

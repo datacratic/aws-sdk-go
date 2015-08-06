@@ -1,7 +1,7 @@
 package sesiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/ses"
+	"github.com/datacratic/aws-sdk-go/service/ses"
 )
 
 type SESAPI interface {

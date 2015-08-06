@@ -14,9 +14,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/awslabs/aws-sdk-go/internal/fixtures/helpers"
-	"github.com/awslabs/aws-sdk-go/internal/model/api"
-	"github.com/awslabs/aws-sdk-go/internal/util"
+	"github.com/datacratic/aws-sdk-go/internal/fixtures/helpers"
+	"github.com/datacratic/aws-sdk-go/internal/model/api"
+	"github.com/datacratic/aws-sdk-go/internal/util"
 )
 
 type TestSuite struct {
@@ -50,9 +50,9 @@ package {{ .API.PackageName }}_test
 import (
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/util/utilassert"
-	"github.com/awslabs/aws-sdk-go/service/{{ .API.PackageName }}"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/util/utilassert"
+	"github.com/datacratic/aws-sdk-go/service/{{ .API.PackageName }}"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,7 +1,7 @@
 package elbiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/elb"
+	"github.com/datacratic/aws-sdk-go/service/elb"
 )
 
 type ELBAPI interface {

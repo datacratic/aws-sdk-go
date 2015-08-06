@@ -8,9 +8,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/jsonrpc"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/rest"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/jsonrpc"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/rest"
 )
 
 func Build(r *aws.Request) {

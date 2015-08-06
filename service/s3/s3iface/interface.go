@@ -1,7 +1,7 @@
 package s3iface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/s3"
+	"github.com/datacratic/aws-sdk-go/service/s3"
 )
 
 type S3API interface {

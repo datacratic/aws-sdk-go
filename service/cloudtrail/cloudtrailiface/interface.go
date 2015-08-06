@@ -1,7 +1,7 @@
 package cloudtrailiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cloudtrail"
+	"github.com/datacratic/aws-sdk-go/service/cloudtrail"
 )
 
 type CloudTrailAPI interface {

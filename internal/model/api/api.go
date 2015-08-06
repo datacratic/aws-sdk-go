@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/awslabs/aws-sdk-go/internal/util"
+	"github.com/datacratic/aws-sdk-go/internal/util"
 )
 
 type API struct {
@@ -134,7 +134,7 @@ func (a *API) ShapeList() []*Shape {
 
 func (a *API) resetImports() {
 	a.imports = map[string]bool{
-		"github.com/awslabs/aws-sdk-go/aws": true,
+		"github.com/datacratic/aws-sdk-go/aws": true,
 	}
 }
 
@@ -255,8 +255,8 @@ func (c *{{ .StructName }}) newRequest(op *aws.Operation, params, data interface
 
 func (a *API) ServiceGoCode() string {
 	a.resetImports()
-	a.imports["github.com/awslabs/aws-sdk-go/internal/signer/v4"] = true
-	a.imports["github.com/awslabs/aws-sdk-go/internal/protocol/"+a.ProtocolPackage()] = true
+	a.imports["github.com/datacratic/aws-sdk-go/internal/signer/v4"] = true
+	a.imports["github.com/datacratic/aws-sdk-go/internal/protocol/"+a.ProtocolPackage()] = true
 
 	var buf bytes.Buffer
 	err := tplService.Execute(&buf, a)
@@ -279,9 +279,9 @@ func (a *API) ExampleGoCode() string {
 		"bytes",
 		"fmt",
 		"time",
-		"github.com/awslabs/aws-sdk-go/aws",
-		"github.com/awslabs/aws-sdk-go/aws/awsutil",
-		"github.com/awslabs/aws-sdk-go/service/"+a.PackageName(),
+		"github.com/datacratic/aws-sdk-go/aws",
+		"github.com/datacratic/aws-sdk-go/aws/awsutil",
+		"github.com/datacratic/aws-sdk-go/service/"+a.PackageName(),
 		strings.Join(exs, "\n\n"),
 	)
 	return util.GoFmt(code)
@@ -301,7 +301,7 @@ type {{ .StructName }} interface {
 func (a *API) InterfaceGoCode() string {
 	a.resetImports()
 	a.imports = map[string]bool{
-		"github.com/awslabs/aws-sdk-go/service/" + a.PackageName(): true,
+		"github.com/datacratic/aws-sdk-go/service/" + a.PackageName(): true,
 	}
 
 	var buf bytes.Buffer

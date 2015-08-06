@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/internal/protocol/json/jsonutil"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/internal/protocol/json/jsonutil"
 )
 
 var emptyJSON = []byte("{}")

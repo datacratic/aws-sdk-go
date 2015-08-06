@@ -1,7 +1,7 @@
 package route53domainsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/route53domains"
+	"github.com/datacratic/aws-sdk-go/service/route53domains"
 )
 
 type Route53DomainsAPI interface {

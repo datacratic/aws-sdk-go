@@ -1,7 +1,7 @@
 package codedeployiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/codedeploy"
+	"github.com/datacratic/aws-sdk-go/service/codedeploy"
 )
 
 type CodeDeployAPI interface {

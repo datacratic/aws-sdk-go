@@ -1,7 +1,7 @@
 package kmsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/kms"
+	"github.com/datacratic/aws-sdk-go/service/kms"
 )
 
 type KMSAPI interface {

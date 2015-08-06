@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/awslabs/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/aws"
 )
 
 // RFC822 returns an RFC822 formatted timestamp for AWS protocols

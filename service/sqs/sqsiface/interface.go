@@ -1,7 +1,7 @@
 package sqsiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/sqs"
+	"github.com/datacratic/aws-sdk-go/service/sqs"
 )
 
 type SQSAPI interface {

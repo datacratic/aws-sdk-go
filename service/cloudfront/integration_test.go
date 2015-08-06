@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/service/cloudfront"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/service/cloudfront"
 	"github.com/stretchr/testify/assert"
 )
 

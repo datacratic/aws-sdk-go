@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/awslabs/aws-sdk-go/aws"
-	"github.com/awslabs/aws-sdk-go/service/s3"
+	"github.com/datacratic/aws-sdk-go/aws"
+	"github.com/datacratic/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
 )
 

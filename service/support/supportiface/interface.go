@@ -1,7 +1,7 @@
 package supportiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/support"
+	"github.com/datacratic/aws-sdk-go/service/support"
 )
 
 type SupportAPI interface {

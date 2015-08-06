@@ -1,7 +1,7 @@
 package cloudsearchiface
 
 import (
-	"github.com/awslabs/aws-sdk-go/service/cloudsearch"
+	"github.com/datacratic/aws-sdk-go/service/cloudsearch"
 )
 
 type CloudSearchAPI interface {
